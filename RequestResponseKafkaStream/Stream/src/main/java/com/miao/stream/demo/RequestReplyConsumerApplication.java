@@ -1,15 +1,16 @@
-package com.miao.consumer.demo;
+package com.miao.stream.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.miao.consumer.stream.StreamKafkaConsumer;
+import com.miao.stream.sum.StreamKafkaStream;
 
 @ComponentScan(basePackages = {
-        "com.miao.consumer.demo",
-        "com.miao.consumer.stream",
-        "com.miao.consumer.model"
+        "com.miao.stream.config",
+        "com.miao.stream.demo",
+        "com.miao.stream.sum",
+        "com.miao.stream.model"
     })
 
 @SpringBootApplication
@@ -17,7 +18,7 @@ public class RequestReplyConsumerApplication {
 
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(RequestReplyConsumerApplication.class, args);
-		StreamKafkaConsumer consumer = new StreamKafkaConsumer();
+		StreamKafkaStream consumer = new StreamKafkaStream();
 		consumer.stream();
 	}
 }
