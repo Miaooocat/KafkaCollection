@@ -24,3 +24,15 @@ hs_err_pid*
 replay_pid*
 .DS_Store
 RequestResponseKafkaStream/Stream/.DS_Store
+*.properties
+*.original
+*.MF
+RequestResponseKafkaStream/Stream/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+RequestResponseKafkaStream/Stream/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+RequestResponseKafkaStream/Stream/target/classes/META-INF/maven/com.miao/RequestReplyKafkaStream/pom.xml
+RequestResponseKafkaStream/Stream/.DS_Store
+RequestResponseKafkaStream/Producer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+RequestResponseKafkaStream/Producer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+RequestResponseKafkaStream/Producer/target/classes/META-INF/maven/com.miao/RequestReplyKafkaProducer/pom.xml
+RequestResponseKafkaStream/Stream/.DS_Store
+RequestResponseKafkaStream/Stream/.DS_Store
