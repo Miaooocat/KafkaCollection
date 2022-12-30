@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.miao</groupId>
-	<artifactId>RequestReplyKafkaConsumer</artifactId>
+	<artifactId>RequestReplyKafkaStream</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>RequestReplyKafkaConsumer</name>
+	<name>RequestReplyKafkaStream</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
