@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.miao.stream.sum.StreamKafkaStream;
+import com.miao.stream.sum.SumCalculationStream;
 
 @ComponentScan(basePackages = {
         "com.miao.stream.config",
@@ -18,7 +18,7 @@ public class RequestReplyConsumerApplication {
 
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(RequestReplyConsumerApplication.class, args);
-		StreamKafkaStream consumer = new StreamKafkaStream();
-		consumer.stream();
+		//StreamKafkaStream consumer = new StreamKafkaStream();
+		//consumer.stream();
 	}
 }
