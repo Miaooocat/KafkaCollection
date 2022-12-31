@@ -1,5 +1,5 @@
 
-package com.miao.stream.model;
+package com.miao.producer.model;
 
 import java.util.HashMap;
 import java.util.Map;
