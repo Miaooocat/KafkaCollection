@@ -51,6 +51,26 @@ messageStream.to("requestreply-topic");
 ```
 
 
+## How to test this Application
+
+Endpoint: http://localhost:8081/sum
+Testing Payload:
+```json
+{
+    "firstNumber":"12",
+    "secondNumber":"1000"
+}
+```
+
+**Step 1**
+Start the Kafka in the local computer
+
+**Step 2**
+Run the spring boot application in both **Stream Project** and **Producer Project**.
+
+**Step 3**
+Send the testing payload to the endpoint.
+
 ## Reference
 [1]  https://dzone.com/articles/synchronous-kafka-using-spring-request-reply-1
 [2] https://github.com/x14gauravg/RequestReplyKafka
