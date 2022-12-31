@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
         "com.miao.producer.config",
         "com.miao.producer.controller",
         "com.miao.producer.demo",
-        "com.miao.producer.model"
+        "com.miao.common.model"
     })
 @SpringBootApplication
 public class RequestReplyProducerApplication {

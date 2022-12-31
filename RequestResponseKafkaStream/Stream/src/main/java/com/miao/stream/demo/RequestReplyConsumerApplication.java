@@ -10,7 +10,7 @@ import com.miao.stream.sum.SumCalculationStream;
         "com.miao.stream.config",
         "com.miao.stream.demo",
         "com.miao.stream.sum",
-        "com.miao.stream.model"
+        "com.miao.common.model"
     })
 
 @SpringBootApplication

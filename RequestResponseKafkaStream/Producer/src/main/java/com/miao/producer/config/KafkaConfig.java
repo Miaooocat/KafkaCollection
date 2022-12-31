@@ -24,7 +24,7 @@ import org.springframework.kafka.requestreply.ReplyingKafkaTemplate;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 
-import com.miao.producer.model.Model;
+import com.miao.common.model.Model;
 
 @Configuration
 public class KafkaConfig {

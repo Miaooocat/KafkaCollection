@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.miao.producer.model.Model;
+import com.miao.common.model.Model;
 
 @RestController
 public class SumController {
