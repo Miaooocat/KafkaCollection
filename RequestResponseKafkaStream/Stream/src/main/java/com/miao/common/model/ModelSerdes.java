@@ -1,4 +1,4 @@
-package com.miao.producer.model;
+package com.miao.common.model;
 
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;

@@ -1,5 +1,5 @@
 
-package com.miao.producer.model;
+package com.miao.common.model;
 
 import java.util.HashMap;
 import java.util.Map;
