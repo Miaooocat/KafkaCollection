@@ -7,8 +7,8 @@
 > Category: #ComputerScience
 
 This project demonstrates a sample implementation of Request-Reply Semantics with Stream API. The project idea is borrowed from [1] and [2] with modifications in consumer code. While the original code uses Kafka Consumer API, this project proves the feasibility of using Kafka Stream API in the context of request-reply semantics.
-![Request Response StreamAPI Implementation Flow.png]()
-![alt text](Request Response StreamAPI Implementation Flow.png)
+
+![Application Flow](https://github.com/Miaooocat/KafkaCollection/blob/main/RequestResponseKafkaStream/Image/RequestResponseStreamAPIImplementationFlow.png)
 
 The setting in the Producer side could refer to [2]. The following section will highlight the difference between the implementation of Kafka Consumer API and the implementation of Stream API.
 
